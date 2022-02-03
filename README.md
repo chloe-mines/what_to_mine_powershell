@@ -33,21 +33,21 @@ How to use:
 	$api_key = "X-CoinAPI-Key"
 	$api_value = "YOURS_GOES_HERE"
 	$api_url = "https://rest.coinapi.io/v1/exchangerate/"
-  
+	
   2. Set your currency & electricity costs
 	#CURRENCY - what do you want to see the value in. USD, AUD, etc.
 	$currency = "AUD"
 	#What do you pay per kW/h
 	$electricity="0.2" #value is a string in your unit of currency. I.e. 0.2 = $0.20 per kW/h
-  
+	
   3. Set your values for each algorithm you want
   #KAWPOW
 	$kpw_p="280.00" #power in watts - TOTAL power of your rig for KAWPOW. Value is a string.
 	$kpw_hr="44.00" #hashrate in watts - TOTAL hashrate of your rig for KAWPOW. Value is a string.
 	$kpw="true" #do you want to include a KAWPOW miner in your options? If so, make this true, otherwise false.
-	$kawpowMiner = "c:\mining\t-rex\ravencoin.bat" #Miner to fire up if Ravencoin is your best bet
+	$kawpowMiner = "c:\mining\t-rex\ravencoin.bat" #Miner to fire up if Ravencoin is your best bet.
 	$kpwName="Ravencoin" #What are you mining, based on this algorithm. The name of the coin.
-  
+	
   4. Repeat 3 for each algorithm.
   
   5. Run your powershell in an ELEVATED session, once per day or less. Not more. If you're pool mining, your payout is based on your shares over the last several blocks, so you're not doing yourself any favours pool hopping.
