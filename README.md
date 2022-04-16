@@ -1,4 +1,6 @@
 # what_to_mine_powershell
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fchloe-mines%2Fwhat_to_mine_powershell.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fchloe-mines%2Fwhat_to_mine_powershell?ref=badge_shield)
+
 A powershell command to work out what you should be mining
 
 This is very much a work in progress but the idea is to make a simple powershell command that can run every <period of time> to determing if your GPU based mining is hitting up the most efficient coin, for your rig, and, if not change the coin you're mining. At this point in time, this is a proof of concept, only and needs some work but it's functional and it does work.
@@ -51,3 +53,7 @@ How to use:
   4. Repeat 3 for each algorithm.
   
   5. Run your powershell in an ELEVATED session, once per day or less. Not more. If you're pool mining, your payout is based on your shares over the last several blocks, so you're not doing yourself any favours pool hopping.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fchloe-mines%2Fwhat_to_mine_powershell.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fchloe-mines%2Fwhat_to_mine_powershell?ref=badge_large)
